@@ -1,4 +1,4 @@
-//Use "edit power plan" in windows or use script below (copy it into textbook and run)
+//Use "edit power plan" in windows or use script below (copy it into textbook and run it in (Windows) Task Scheduler)
 
 set oLocator = CreateObject("WbemScripting.SWbemLocator")
 set oServices = oLocator.ConnectServer(".","rootwmi")
